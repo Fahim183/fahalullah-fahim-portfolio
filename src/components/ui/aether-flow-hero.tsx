@@ -252,8 +252,8 @@ export default function AetherFlowHero({
                         onClick={onContactClick}
                         className="px-6 py-3.5 font-semibold rounded-xl border backdrop-blur-md transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2 cursor-pointer bg-slate-900/60 border-slate-700 text-slate-200 hover:bg-slate-800"
                     >
-                        <Mail className="h-4 w-4 text-purple-400" />
-                        <span>Get In Touch</span>
+                        <ArrowRight className="h-4 w-4" />
+                        <span>View Resume</span>
                     </button>
                 </motion.div>
             </div>
